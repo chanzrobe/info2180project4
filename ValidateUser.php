@@ -2,7 +2,7 @@
 
 
 mysql_connect("localhost", "root", "")or die("Cannot connect server"); 
-mysql_select_db("cheapo")or die("Cannot select the desired database");
+mysql_select_db("cheapo2")or die("Cannot select the desired database");
 
 $username = $_POST["inputEmail"];
 $password = $_POST["inputPassword"];
