@@ -4,7 +4,7 @@
 mysql_connect("localhost", "root", "")or die("Cannot connect server"); 
 mysql_select_db("project4")or die("Cannot select the desired database");
 
-$username = $_POST["inputEmail"];
+$username = $_POST["username"];
 $password = $_POST["inputPassword"];
 
 
